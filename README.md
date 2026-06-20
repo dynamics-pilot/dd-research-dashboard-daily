@@ -24,17 +24,20 @@ Daily email preview:
 
 ![Daily email preview](docs/assets/email-preview.png)
 
-## What This Repository Does Not Include
+## Runtime Workspace
 
-This public repository intentionally excludes:
+After installation, each computer maintains its own local dashboard workspace. The
+repository provides the scaffold and tools; the following files are created or
+updated locally during use:
 
-- real dashboard project history;
-- generated dashboard HTML/data from a private workspace;
-- daily report history;
-- SMTP secrets or real sender account config;
-- Codex automation ids or target thread ids;
-- token usage summary JSON;
-- account caches, login data, browser profiles, PDFs, or private research files.
+- `research-dashboard/projects/*.md` for active project records;
+- `research-dashboard/daily-reports/*.md` for generated daily reports;
+- `research-dashboard/index.html` and `dashboard-data.json` for the rendered dashboard;
+- `research-dashboard/config/smtp-mail.local.json` and the encrypted SMTP secret for email delivery;
+- optional task, export, archive, and token-usage files created by the local workflow.
+
+These runtime files are machine-specific and should be reviewed before publishing
+or sharing a fork.
 
 ## Quick Install
 
