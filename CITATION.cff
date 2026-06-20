@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "DD Research Dashboard Daily"
+message: "If you use this workflow, cite or acknowledge the repository as appropriate for your project."
+type: software
+authors:
+  - name: "DD and Codex"
+repository-code: "https://github.com/tiny-plane/dd-research-dashboard-daily"
+license: "NOASSERTION"
