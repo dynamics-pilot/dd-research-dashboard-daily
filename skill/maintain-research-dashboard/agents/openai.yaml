@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Research Dashboard"
+  short_description: "Keep DD research progress dashboards current."
+  default_prompt: "Use $maintain-research-dashboard before and after DD research work to sync the project dashboard."
