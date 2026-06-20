@@ -1,0 +1,37 @@
+# Local configs and secrets
+*.secret
+smtp-mail.local.json
+.env
+.env.*
+!.env.example
+
+# Private dashboard data
+**/dashboard-data.json
+**/index.html
+**/daily-reports/
+**/projects/*.md
+!**/projects/_template.md
+**/archived-projects/
+**/merged-projects/
+**/tasks/
+**/exports/
+**/config/codex-usage-summary.json
+**/codex-usage-summary.json
+
+# Python / local caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.zip
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
