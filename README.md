@@ -2,6 +2,12 @@
 
 A portable Codex research-dashboard scaffold with a daily email-report workflow.
 
+Managing too many parallel research projects with agents? This dashboard helps
+Codex keep project records, track open problems and next steps, and generate a
+daily research summary automatically. It is designed for agent-assisted research
+workflows where the AI should leave a readable project trail instead of relying
+on scattered chat history.
+
 This repository packages:
 
 - a `maintain-research-dashboard` Codex skill;
