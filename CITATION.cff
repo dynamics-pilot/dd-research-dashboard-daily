@@ -3,6 +3,6 @@ title: "DD Research Dashboard Daily"
 message: "If you use this workflow, cite or acknowledge the repository as appropriate for your project."
 type: software
 authors:
-  - name: "DD and Codex"
-repository-code: "https://github.com/tiny-plane/dd-research-dashboard-daily"
-license: "NOASSERTION"
+  - name: "Di Weicheng"
+repository-code: "https://github.com/dynamics-pilot/dd-research-dashboard-daily"
+license: "MIT"
