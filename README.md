@@ -14,6 +14,16 @@ This repository packages:
 
 The package is designed for another Codex agent to read and deploy on a local Windows machine.
 
+## Preview
+
+Dashboard interface:
+
+![Dashboard preview](docs/assets/dashboard-preview.png)
+
+Daily email preview:
+
+![Daily email preview](docs/assets/email-preview.png)
+
 ## What This Repository Does Not Include
 
 This public repository intentionally excludes:
@@ -31,7 +41,7 @@ This public repository intentionally excludes:
 From PowerShell:
 
 ```powershell
-git clone https://github.com/tiny-plane/dd-research-dashboard-daily.git
+git clone https://github.com/dynamics-pilot/dd-research-dashboard-daily.git
 cd dd-research-dashboard-daily
 .\install_dashboard_daily.ps1 -ResearchRoot "D:\ResearchManagement"
 ```
@@ -64,4 +74,8 @@ All Markdown and JSON files should be read and written as UTF-8. Prefer UTF-8 wi
 
 ## License
 
-Released for personal/research workflow reuse. See `SECURITY.md` before publishing any fork with local data.
+This project is released under the MIT License.
+
+Copyright (c) 2026 Diwei Cheng
+
+See `SECURITY.md` before publishing any fork with local data.
