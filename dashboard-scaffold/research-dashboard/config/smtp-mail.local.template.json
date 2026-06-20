@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "smtp_host": "smtp.example.com",
+  "smtp_port": 465,
+  "smtp_security": "ssl",
+  "smtp_user": "sender@example.com",
+  "from_email": "sender@example.com",
+  "from_name": "Research Dashboard",
+  "to_email": "recipient@example.com",
+  "reply_to": "",
+  "subject_prefix": "",
+  "secret_file": "D:\\ResearchManagement\\research-dashboard\\config\\smtp-mail.secret"
+}
