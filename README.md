@@ -76,6 +76,6 @@ All Markdown and JSON files should be read and written as UTF-8. Prefer UTF-8 wi
 
 This project is released under the MIT License.
 
-Copyright (c) 2026 Diwei Cheng
+Copyright (c) 2026 Di Weicheng
 
 See `SECURITY.md` before publishing any fork with local data.
